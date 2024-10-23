@@ -1,11 +1,2 @@
-from datetime import datetime
-
-now = datetime.now()
-
-new_years_day = datetime(year=now.year + 1, month=1, day=1)
-
-difference = new_years_day - now
-
-days_left = difference.days
-
-print(f"There are are {days_left} days left until next New Year's Day!")
+with open("poem.txt", "w") as file:
+    file.write("Roses are red, \n ")
